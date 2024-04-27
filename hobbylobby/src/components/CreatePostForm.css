@@ -1,0 +1,54 @@
+/* CreatePostForm.css */
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the entire viewport height is covered */
+}
+
+.create-post-container {
+  width: 400px; /* Adjust the width of the container */
+  padding: 20px;
+  border: 2px solid #8bc34a; /* Green border */
+  border-radius: 10px;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%; /* Fill the container width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"],
+.back-to-home-link {
+  display: inline-block;
+  width: calc(50% - 5px); /* Calculate width for each button (50% - spacing) */
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+button[type="submit"]:hover,
+.back-to-home-link:hover {
+  background-color: #0056b3;
+}
